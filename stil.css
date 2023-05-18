@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(to left, rgba(0, 0, 255, 0.7) 50%, rgba(0, 128, 0, 0.7) 50%), url(kod2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw; 
+    max-width: 400px; 
+    margin: 0 auto; 
+    width: 600pxI don't expect you to be upset.  But know this, you broke a heart today.  I asked you, you're handsome, why did you stay single?  That's exactly the percentage.  I couldn't find anyone sincere.;
+    
+  
+ 
+}
+
+.form {
+    background-color: #f8fdfd;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    
+    
+
+}
+
+.form__title{
+  text-align: center;
+  font-weight:800;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+.form__text{
+    text-align: center;
+   
+   
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.form__input{
+   
+   padding: 15px; 
+   margin-top: 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background-color: rgb(216, 213, 213);
+   font-size: 16px;
+   
+}
+
+
+.form__button{
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(128, 164, 152);
+    font-size: larger;
+    font: 1.2em sans-serif;
+    border: none;
+    border-radius: 5px;
+    
+  
+}
+.form__button:hover{
+    background-color: rgba(23, 114, 52, 0.927);
+    color:rgba(251, 249, 249, 0.96);
+    
+}
+.form__input:hover{
+border: 0px solid rgb(89, 126, 89);
+background-color: #eaefef;
+
+}
